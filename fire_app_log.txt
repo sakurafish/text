@@ -1,1 +1,23 @@
 2014-05-14 17:56:59 overwrite stylesheets/screen.css 
+2014-05-17 09:37:38     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-17 09:37:38 overwrite stylesheets/screen.css 
+2014-05-17 11:22:53     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-17 11:22:53 overwrite stylesheets/screen.css 
+2014-05-17 13:04:45     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-17 13:04:45 overwrite stylesheets/screen.css 
+2014-05-18 09:58:06     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-18 09:58:06 overwrite stylesheets/screen.css 
+2014-05-18 11:14:51     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-18 11:14:51 identical stylesheets/screen.css 
+2014-05-18 17:00:00     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-18 17:00:00 identical stylesheets/screen.css 
+2014-05-19 09:50:56     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-19 09:50:56 identical stylesheets/screen.css 
+2014-05-19 14:57:23     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-19 14:57:23 identical stylesheets/screen.css 
+2014-05-19 18:05:51     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-19 18:05:51 identical stylesheets/screen.css 
+2014-05-20 08:27:59     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-20 08:27:59 identical stylesheets/screen.css 
+2014-05-21 17:04:16     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-21 17:04:16 identical stylesheets/screen.css 
