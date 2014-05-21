@@ -21,3 +21,6 @@
 2014-05-20 08:27:59 identical stylesheets/screen.css 
 2014-05-21 17:04:16     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
 2014-05-21 17:04:16 identical stylesheets/screen.css 
+2014-05-21 20:27:46     error sass/screen.scss (Line 12: Invalid CSS after "}": expected selector or at-rule, was "<style type="te...")
+2014-05-21 20:27:46 overwrite stylesheets/screen.css 
+2014-05-21 20:29:04 overwrite stylesheets/screen.css 
