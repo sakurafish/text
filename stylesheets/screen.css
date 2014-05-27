@@ -1,8 +1,8 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,57 +12,202 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
   font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
   line-height: 1;
 }
-
-/* line 24, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
-
-/* line 26, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
+  .carousel-indicators {
+    bottom: 20px; } }
+.clearfix:before, .clearfix:after {
+  content: " ";
+}
+
+
+
+/*index*/
+
+.wrapper{
+
+}
+
+.list a{
+
+  border-left: 2px solid rgba(153, 153, 153, 0.4);
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}  
+
+.carousel-inner{
+  padding-right: 250px;
+}
+
+.logo {
+  width: 220px;
+  height: 60px;
+  background-image: url(/logo.JPG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  float: left;
+   }
+
+
+.item img{
+  float: right;
+  clear: both;
+  width: 800px;
+  height: 487px;
+}
+
+
+/*AWESOME_FACE!!!.png*/
+.leftc img{
+  height: 30px;
+  width: 30px;
+}
+
+.rightc img{
+  height: 30px;
+  width: 30px;
+}
+
+
+
+.lower {
+
+  width: 940px;
+  height: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+}
+
+.lower01{
+  height: 250px;
+  width: 300px;
+  float: left;
+  background-image: url(/24.jpg);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-right: 30px;
+
+}
+
+.lower02{
+  height: 250px;
+  width: 300px;
+  float: left;
+  background-image: url(/24.jpg);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.lower03{
+  height: 250px;
+  width: 300px;
+  float: right;
+  margin-bottom: 30px;
+
+}
+
+.lower03_1{
+  height: 115px;
+  width: 300px;
+  float:left;
+  background-color:red;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.lower03_2{
+  height: 115px;
+  width: 300px;
+  float:left;
+  background-color:red;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.black{
+  height: 30px;
+  width: 300px;
+  background-color: FF0066;
+  padding-top: 10px ;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
+
 }
 
-/* line 30, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
 
-/* line 32, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
+.black_up {
+  width: 300px;
+  height: 90px;
+  position: absolute;
+  background-color: rgba(150, 0,0,0.7);
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
 
-/* line 116, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
+
+.footer p{
+  height: 30px;
+  width: 1349px;
+  border-top:2px solid rgba(0,0,0,0.2);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: right;
+  clear: both;
+ }
+
+
