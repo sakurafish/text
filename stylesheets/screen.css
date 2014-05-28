@@ -1,3 +1,4 @@
+/* line 13, ../sass/screen.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -7,8 +8,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -19,88 +20,90 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* line 22, ../sass/screen.scss */
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
+/* line 25, ../sass/screen.scss */
 body {
   line-height: 1;
 }
+
+/* line 28, ../sass/screen.scss */
 ol, ul {
   list-style: none;
 }
+
+/* line 31, ../sass/screen.scss */
 blockquote, q {
   quotes: none;
 }
+
+/* line 35, ../sass/screen.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
+/* line 39, ../sass/screen.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-
-
-
-
 /*------------*/
 /*以上為歸零*/
 /*------------*/
-
-
-
-
-
-
-.wrapper{
-    width: 960px;/*一開始先限制網站寬度為960px，常見網站寬度*/
-    margin: 0 auto;/*將網站放到「視窗」中間*/
-    /*border: 1px solid green;*/
+/* line 54, ../sass/screen.scss */
+.wrapper {
+  width: 960px;
+  /*一開始先限制網站寬度為960px，常見網站寬度*/
+  margin: 0 auto;
+  /*將網站放到「視窗」中間*/
+  /*border: 1px solid green;*/
 }
-
-
-
-
 
 /*navigation bar設定*/
-
-ul{
-    float: right;
+/* line 66, ../sass/screen.scss */
+ul {
+  float: right;
 }
 
-li{
+/* line 70, ../sass/screen.scss */
+li {
   /*float: right;*/
-  display: inline-block;/*比較float與inline兩者差別*/
+  display: inline-block;
+  /*比較float與inline兩者差別*/
   padding-left: 8px;
   padding-right: 8px;
   margin-top: 30px;
   margin-bottom: 30px;
-}  
+}
 
 /*bootstrap套件，先刪除*/
 /*.carousel-inner{
   padding-right: 250px;
 }*/
-
+/* line 84, ../sass/screen.scss */
 .logo {
   width: 120px;
   height: 60px;
-  background-image: url(../images/logo.jpg);/*注意「../」是回到上一層的意思*/
+  background-image: url(../images/logo.jpg);
+  /*注意「../」是回到上一層的意思*/
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   float: left;
 }
 
-
+/* line 95, ../sass/screen.scss */
 img {
-    width: 100%;/*調整圖片大小，與父元素容器一樣大*/
+  width: 100%;
+  /*調整圖片大小，與父元素容器一樣大*/
 }
-
 
 /*AWESOME_FACE!!!.png*/
 /*.leftc img{
@@ -112,76 +115,62 @@ img {
   height: 30px;
   width: 30px;
 }*/
-
-
-
+/* line 113, ../sass/screen.scss */
 .lower {
   width: 940px;
   height: 250px;
-  margin: 30px auto
+  margin: 30px auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*合併lower01跟lower02的css*/
-.lower01, .lower02{
-    height: 250px;
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-    /*margin-right: 30px;注意html順序，margin撞到右邊的float*/
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    position: relative;
-    /*搭配position: relative;*/
-}
-
-
-.lower01{
-  background-image: url(../images/24.jpg);
-/*  height: 250px;
-  width: 300px;
-  margin-right: 30px;
-  float: left;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;*/
-}
-
-.lower02{
-  background-image: url(../images/24.jpg);
-/*  height: 250px;
+/* line 132, ../sass/screen.scss */
+.lower01, .lower02 {
+  height: 250px;
   width: 300px;
   float: left;
+  margin-right: 20px;
+  /*margin-right: 30px;注意html順序，margin撞到右邊的float*/
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  margin-right: 30px;*/
+  position: relative;
+  /*搭配position: relative;*/
 }
 
-.lower03{
-    height: 250px;
+/* line 146, ../sass/screen.scss */
+.lower01 {
+  background-image: url(../images/24.jpg);
+  /*  height: 250px;
     width: 300px;
-    float: right;
-    /*margin-bottom: 30px;*/
+    margin-right: 30px;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
 }
 
+/* line 157, ../sass/screen.scss */
+.lower02 {
+  background-image: url(../images/24.jpg);
+  /*  height: 250px;
+    width: 300px;
+    float: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 30px;*/
+}
 
+/* line 168, ../sass/screen.scss */
+.lower03 {
+  height: 250px;
+  width: 300px;
+  float: right;
+  /*margin-bottom: 30px;*/
+}
 
-
-
-.lower03_1, .lower03_2{
+/* line 179, ../sass/screen.scss */
+.lower03_1, .lower03_2 {
   height: 115px;
   width: 300px;
   background-color: rgba(240, 10, 20, 0.2);
@@ -190,40 +179,36 @@ img {
   border-radius: 10px;
 }
 
-
-
-
-
-
-.lower03_1{
-/*  height: 115px;
-  width: 300px;*/
-
+/* line 193, ../sass/screen.scss */
+.lower03_1 {
+  /*  height: 115px;
+    width: 300px;*/
   /*float:left;不需要*/
-
-/*  background-color:red;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;*/
+  /*  background-color:red;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
   /*margin-top: 30px;*/
 }
 
-.lower03_2{
-/*  height: 115px;
-  width: 300px;*/
+/* line 206, ../sass/screen.scss */
+.lower03_2 {
+  /*  height: 115px;
+    width: 300px;*/
   /*float:left;*/
-/*  background-color:red;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;*/
+  /*  background-color:red;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;*/
   margin-top: 20px;
 }
 
-.black{
+/* line 217, ../sass/screen.scss */
+.black {
   height: 32px;
   width: 300px;
   background-color: FF0066;
-  padding-top: 10px ;
+  padding-top: 10px;
   -webkit-border-top-left-radius: 10px;
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -231,9 +216,7 @@ img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   text-align: left;
-
 }
-
 
 /*.black_up {
   width: 300px;
@@ -248,84 +231,61 @@ img {
   border-bottom-right-radius: 10px;}
 
 */
-
-
-
-
-
-
+/* line 252, ../sass/screen.scss */
 .black_up_01 {
-    display: none;
+  display: none;
 }
 
+/* line 256, ../sass/screen.scss */
 .lower01:hover > .black_up_01 {
-    display: block;
-    width: 300px;
-    height: 88px;
-    position: absolute;
-    /*搭配position: relative;*/
-    bottom: 0;
-    background-color: rgba(150, 0,0,0.7);
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    -moz-border-radius-bottomright: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  display: block;
+  width: 300px;
+  height: 88px;
+  position: absolute;
+  /*搭配position: relative;*/
+  bottom: 0;
+  background-color: rgba(150, 0, 0, 0.7);
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
-
 
 /*比較display: none與opacity: 0*/
-
-
-
+/* line 278, ../sass/screen.scss */
 .black_up_02 {
   opacity: 0;
-  filter:alpha(opacity= 0); /* For IE8 and earlier */
+  filter: alpha(opacity=0);
+  /* For IE8 and earlier */
 }
 
-.lower02:hover > .black_up_02  {
-    opacity: 1;
-    filter:alpha(opacity= 100); /* For IE8 and earlier */
-    -webkit-transition: all .55s;
-    -moz-transition: all .55s;
-    -ms-transition: all .55s;
-    -o-transition: all .55s;
-    transition: all .55s;
-    width: 300px;
-    height: 88px;
-    position: absolute;
-    /*搭配position: relative;*/
-    bottom: 0;
-    background-color: rgba(150, 0,0,0.7);
-    -webkit-border-bottom-left-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    -moz-border-radius-bottomright: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+/* line 283, ../sass/screen.scss */
+.lower02:hover > .black_up_02 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  /* For IE8 and earlier */
+  -webkit-transition: all .55s;
+  -moz-transition: all .55s;
+  -ms-transition: all .55s;
+  -o-transition: all .55s;
+  transition: all .55s;
+  width: 300px;
+  height: 88px;
+  position: absolute;
+  /*搭配position: relative;*/
+  bottom: 0;
+  background-color: rgba(150, 0, 0, 0.7);
+  -webkit-border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-.footer p{
-    line-height: 30px;/*比較height: 30px;*/
-    /*height: 30px;*/
-    width: 960px;    
-    margin: 20px auto;
-    /*比較display: inline;的置中*/
-    /*display: inline;*/
-    border-top:2px solid rgba(0,0,0,0.2);
-    clear: both;
-    padding: 8px;
-    /*比較margin*/
- }
-
-
+/* line 313, ../sass/screen.scss */
+.footer p {
+  font-size: 14px;
+}
