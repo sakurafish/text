@@ -271,7 +271,7 @@ img {
 
 
 
-.footer p:before{
+.footer p{
     color: red;
     line-height: 30px;
     height: 30px;

@@ -1,291 +1,89 @@
-/* line 13, ../sass/screen.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+/*
+Syntax error: Invalid CSS after "...r:alpha(opacity": expected ")", was "= 0) /* For IE8..."
+        on line 217 of /Users/tough/Desktop/text/sass/screen.sass
 
-/* line 22, ../sass/screen.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-/* line 25, ../sass/screen.scss */
-body {
-  line-height: 1;
-}
-
-/* line 28, ../sass/screen.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 31, ../sass/screen.scss */
-blockquote, q {
-  quotes: none;
-}
-
-/* line 35, ../sass/screen.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-/* line 39, ../sass/screen.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*------------*/
-/*以上為歸零*/
-/*------------*/
-/* line 54, ../sass/screen.scss */
-.wrapper {
-  width: 960px;
-  /*一開始先限制網站寬度為960px，常見網站寬度*/
-  margin: 0 auto;
-  /*將網站放到「視窗」中間*/
-  /*border: 1px solid green;*/
-}
-
-/*navigation bar設定*/
-/* line 66, ../sass/screen.scss */
-ul {
-  float: right;
-}
-
-/* line 70, ../sass/screen.scss */
-li {
-  /*float: right;*/
-  display: inline-block;
-  /*比較float與inline兩者差別*/
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/*bootstrap套件，先刪除*/
-/*.carousel-inner{
-  padding-right: 250px;
-}*/
-/* line 84, ../sass/screen.scss */
-.logo {
-  width: 120px;
-  height: 60px;
-  background-image: url(../images/logo.jpg);
-  /*注意「../」是回到上一層的意思*/
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  float: left;
-}
-
-/* line 95, ../sass/screen.scss */
-img {
-  width: 100%;
-  /*調整圖片大小，與父元素容器一樣大*/
-}
-
-/*AWESOME_FACE!!!.png*/
-/*.leftc img{
-  height: 30px;
-  width: 30px;
-}
-
-.rightc img{
-  height: 30px;
-  width: 30px;
-}*/
-/* line 113, ../sass/screen.scss */
-.lower {
-  width: 940px;
-  height: 250px;
-  margin: 30px auto;
-}
-
-/*合併lower01跟lower02的css*/
-/* line 132, ../sass/screen.scss */
-.lower01, .lower02 {
-  height: 250px;
-  width: 300px;
-  float: left;
-  margin-right: 20px;
-  /*margin-right: 30px;注意html順序，margin撞到右邊的float*/
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  position: relative;
-  /*搭配position: relative;*/
-}
-
-/* line 146, ../sass/screen.scss */
-.lower01 {
-  background-image: url(../images/24.jpg);
-  /*  height: 250px;
-    width: 300px;
-    margin-right: 30px;
-    float: left;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;*/
-}
-
-/* line 157, ../sass/screen.scss */
-.lower02 {
-  background-image: url(../images/24.jpg);
-  /*  height: 250px;
-    width: 300px;
-    float: left;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    margin-right: 30px;*/
-}
-
-/* line 168, ../sass/screen.scss */
-.lower03 {
-  height: 250px;
-  width: 300px;
-  float: right;
-  /*margin-bottom: 30px;*/
-}
-
-/* line 179, ../sass/screen.scss */
-.lower03_1, .lower03_2 {
-  height: 115px;
-  width: 300px;
-  background-color: rgba(240, 10, 20, 0.2);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-}
-
-/* line 193, ../sass/screen.scss */
-.lower03_1 {
-  /*  height: 115px;
-    width: 300px;*/
-  /*float:left;不需要*/
-  /*  background-color:red;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;*/
-  /*margin-top: 30px;*/
-}
-
-/* line 206, ../sass/screen.scss */
-.lower03_2 {
-  /*  height: 115px;
-    width: 300px;*/
-  /*float:left;*/
-  /*  background-color:red;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;*/
-  margin-top: 20px;
-}
-
-/* line 217, ../sass/screen.scss */
-.black {
-  height: 32px;
-  width: 300px;
-  background-color: FF0066;
-  padding-top: 10px;
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  text-align: left;
-}
-
-/*.black_up {
-  width: 300px;
-  height: 88px;
-  position: absolute;
-  background-color: rgba(150, 0,0,0.7);
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -moz-border-radius-bottomright: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;}
-
+Backtrace:
+/Users/tough/Desktop/text/sass/screen.sass:217
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:1146:in `expected'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:1083:in `expected'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:1078:in `tok!'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:801:in `pseudo'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:679:in `simple_selector_sequence'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:639:in `_selector'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:623:in `selector_comma_sequence'
+org/jruby/RubyKernel.java:2105:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/parser.rb:1064:in `expr!'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:314:in `visit_rule'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+org/jruby/RubyArray.java:2339:in `collect'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:109:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
+org/jruby/RubyKernel.java:2109:in `send'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/engine.rb:315:in `_render'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/sass-3.2.10/lib/sass/engine.rb:262:in `render'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:168:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:167:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/compass_patch.rb:166:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1620:in `each'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/compiler.rb:25:in `compile'
+org/jruby/RubyKernel.java:2105:in `send'
+(__FORWARDABLE__):3:in `compile'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:97:in `sass_modified'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/project_watcher.rb:90:in `sass_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/backport_from_0.13/lib/compass/watcher/watch.rb:17:in `run_callback'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:34:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:29:in `listen_callback'
+org/jruby/RubyArray.java:1620:in `each'
+file:/Applications/Fire.app/Contents/Resources/Java/fire-app.jar!/app_watcher.rb:28:in `listen_callback'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:212:in `on_change'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/listener.rb:221:in `initialize_adapter'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:220:in `call'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Applications/Fire.app/Contents/Resources/lib/ruby/jruby/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `start'
+org/jruby/RubyProc.java:270:in `call'
+org/jruby/RubyProc.java:224:in `call'
 */
-/* line 252, ../sass/screen.scss */
-.black_up_01 {
-  display: none;
-}
-
-/* line 256, ../sass/screen.scss */
-.lower01:hover > .black_up_01 {
-  display: block;
-  width: 300px;
-  height: 88px;
-  position: absolute;
-  /*搭配position: relative;*/
-  bottom: 0;
-  background-color: rgba(150, 0, 0, 0.7);
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -moz-border-radius-bottomright: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-/*比較display: none與opacity: 0*/
-/* line 278, ../sass/screen.scss */
-.black_up_02 {
-  opacity: 0;
-  filter: alpha(opacity=0);
-  /* For IE8 and earlier */
-}
-
-/* line 283, ../sass/screen.scss */
-.lower02:hover > .black_up_02 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  /* For IE8 and earlier */
-  -webkit-transition: all .55s;
-  -moz-transition: all .55s;
-  -ms-transition: all .55s;
-  -o-transition: all .55s;
-  transition: all .55s;
-  width: 300px;
-  height: 88px;
-  position: absolute;
-  /*搭配position: relative;*/
-  bottom: 0;
-  background-color: rgba(150, 0, 0, 0.7);
-  -webkit-border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  -moz-border-radius-bottomright: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-/* line 313, ../sass/screen.scss */
-.footer p {
-  font-size: 14px;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"...r:alpha(opacity\": expected \")\", was \"= 0) /* For IE8...\"\A         on line 217 of /Users/tough/Desktop/text/sass/screen.sass"; }

@@ -29,3 +29,27 @@
 2014-05-28 20:09:51 overwrite stylesheets/screen.css 
 2014-05-28 20:15:33 overwrite stylesheets/screen.css 
 2014-05-28 20:15:49 overwrite stylesheets/screen.css 
+2014-05-28 22:16:23 overwrite stylesheets/screen.css 
+2014-05-28 22:16:55 overwrite stylesheets/screen.css 
+2014-05-28 22:17:31 overwrite stylesheets/screen.css 
+2014-05-28 22:18:09 overwrite stylesheets/screen.css 
+2014-05-28 22:18:11 overwrite stylesheets/screen.css 
+2014-05-28 22:18:54     error sass/screen.scss (Line 289: Invalid CSS after " }": expected "}", was "")
+2014-05-28 22:18:54 overwrite stylesheets/screen.css 
+2014-05-28 22:19:00 overwrite stylesheets/screen.css 
+2014-05-28 22:20:45     error sass/screen.sass (Line 76: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:20:45 overwrite stylesheets/screen.css 
+2014-05-28 22:20:45     error sass/screen.sass (Line 76: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:20:45 identical stylesheets/screen.css 
+2014-05-28 22:20:59     error sass/screen.sass (Line 76: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:20:59 overwrite stylesheets/screen.css 
+2014-05-28 22:21:21     error sass/screen.sass (Line 67: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:21:21 overwrite stylesheets/screen.css 
+2014-05-28 22:21:33     error sass/screen.sass (Line 67: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:21:33 identical stylesheets/screen.css 
+2014-05-28 22:21:41     error sass/screen.sass (Line 67: Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 2 spaces.)
+2014-05-28 22:21:41 identical stylesheets/screen.css 
+2014-05-28 22:22:19     error sass/screen.sass (Line 81: Inconsistent indentation: "\t\t " was used for indentation, but the rest of the document was indented using 1 tab.)
+2014-05-28 22:22:19 overwrite stylesheets/screen.css 
+2014-05-28 22:22:38     error sass/screen.sass (Line 217: Invalid CSS after "...r:alpha(opacity": expected ")", was "= 0) /* For IE8...")
+2014-05-28 22:22:38 overwrite stylesheets/screen.css 
